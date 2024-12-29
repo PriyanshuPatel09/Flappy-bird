@@ -97,7 +97,7 @@
                 x: canvas.width + size,
                 y: Math.random() * (canvas.height - size * 2) + size,
                 size: size,
-                speed: Math.random() * 4 + 3,
+                speed: Math.random() * 3.5 + 1.5,
                 baseColor: baseColor,
                 gradient: gradient,
                 pattern: fishPatterns[Math.floor(Math.random() * fishPatterns.length)],
@@ -376,7 +376,7 @@
             velocity: 0,
             gravity: canvas.height * 0.0005, // Reduced gravity
             jump: canvas.height * -0.006, // Reduced jump height
-            radius: Math.min(canvas.width, canvas.height) * 0.015, // Reduced bird size
+            radius: Math.min(canvas.width, canvas.height) * 0.030, // Reduced bird size
             speedMultiplier: 1
         };
 
